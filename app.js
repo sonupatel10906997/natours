@@ -20,7 +20,7 @@ const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
 
-// 4. Express instance
+// 4. Express instance started
 const app = express();
 
 app.set('view engine', 'pug');
